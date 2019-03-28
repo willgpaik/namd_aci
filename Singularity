@@ -1,5 +1,5 @@
-BootStrap: docker
-From: nvcr.io/hpc/namd:2.13-multinode
+BootStrap: nvidia
+From: /hpc/namd:2.13-multinode
 
 
 %post
