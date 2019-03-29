@@ -21,4 +21,6 @@ From: shub://willgpaik/centos7_aci:latest
   chmod +x namd_install.sh
   ./namd_install.sh
   
+  rm namd_install.sh
+  
   
