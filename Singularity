@@ -17,7 +17,7 @@ From: shub://willgpaik/centos7_aci:latest
   
   mkdir -p /opt/sw/
   wget https://raw.githubusercontent.com/willgpaik/namd_aci/master/namd_install.sh
-  chmod +x 
+  chmod +x namd_install.sh
   
   
   
