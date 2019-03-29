@@ -38,3 +38,5 @@ mv tcl8.5.9-linux-x86_64-threaded tcl-threaded
 cd Linux-x86_64-g++
 make
 
+cd $BASE
+rm NAMD_2.13_Source.tar.gz
