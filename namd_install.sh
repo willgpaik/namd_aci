@@ -5,13 +5,11 @@
 #	NAMD 2.13 MPI version
 
 
-BASE=PWD
-
-cd $BASE
+BASE=$PWD
 
 # Replace below line with your source file (following link will be removed):
 wget https://git.psu.edu/gip5038/ics_files/raw/master/NAMD_2.13_Source.tar.gz
-tar xzf NAMD_2.13_Source.tar.gz
+tar -xf NAMD_2.13_Source.tar.gz
 
 cd NAMD_2.13_Source
 
