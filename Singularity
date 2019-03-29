@@ -16,6 +16,7 @@ From: shub://willgpaik/centos7_aci:latest
   yum -y update
   
   mkdir -p /opt/sw/
+  cd /opt/sw/
   wget https://raw.githubusercontent.com/willgpaik/namd_aci/master/namd_install.sh
   chmod +x namd_install.sh
   
