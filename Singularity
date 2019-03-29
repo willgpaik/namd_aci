@@ -1,10 +1,23 @@
-BootStrap: nvidia
-From: /hpc/namd:2.13-multinode
+BootStrap: shub
+From: shub://willgpaik/centos7_aci:latest
+
+%setup
+
+%files
+
+%environment
+  export PATH=$PATH:/opt/sw/NAMD_2.13_Source/Linux-x86_64-g++
+
+%runscript
+
 
 
 %post
-  mkdir -p /storage/home
-  mkdir -p /storage/work
-  mkdir -p /gpfs/scratch
-  mkdir -p /gpfs/group
-  mkdir -p /var/spool/torque
+  yum -y update
+  
+  mkdir -p /opt/sw/
+  wget https://raw.githubusercontent.com/willgpaik/namd_aci/master/namd_install.sh
+  chmod +x 
+  
+  
+  
