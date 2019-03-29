@@ -6,8 +6,6 @@
 
 
 BASE=PWD
-mkdir -p $BASE/namd
-BUILD_DIR=$BASE/namd
 
 cd $BASE
 
