@@ -18,7 +18,8 @@ cd charm-6.8.2
 env MPICXX=mpicxx ./build charm++ mpi-linux-x86_64 --with-production
 cd mpi-linux-x86_64/tests/charm++/megatest
 make pgm
-mpiexec -n 4 ./pgm
+# following is not required:
+#mpiexec -n 4 ./pgm 
 
 cd $BASE/NAMD_2.13_Source
 
