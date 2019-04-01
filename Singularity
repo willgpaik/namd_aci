@@ -17,13 +17,13 @@ From: shub://willgpaik/centos7_aci:latest
   
   mkdir -p /opt/sw/
   cd /opt/sw/
-  %wget https://raw.githubusercontent.com/willgpaik/namd_aci/master/namd_install.sh
-  %chmod +x namd_install.sh
-  %./namd_install.sh
+  #wget https://raw.githubusercontent.com/willgpaik/namd_aci/master/namd_install.sh
+  #chmod +x namd_install.sh
+  #./namd_install.sh
   
-  %rm namd_install.sh
+  #rm namd_install.sh
   
-  BASE=$PWD
+  export BASE=$PWD
 
 wget https://git.psu.edu/gip5038/ics_files/raw/master/NAMD_2.13_Source.tar.gz
 tar -xf NAMD_2.13_Source.tar.gz
